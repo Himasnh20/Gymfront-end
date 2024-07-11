@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fitness Club </title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image:
+                /*linear-gradient(rgba(234, 234, 234, 0.573)25%,rgba(193, 193, 193, 0.619)25%),*/
+                url(images/image.2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 109vh;
+            color: white;
+        }
+
+
+        .mid {
+            /* border: 2px solid red;  */
+            display: inline-block;
+            position: absolute;
+            left: 33%;
+            top: 10px;
+        }
+
+        .right {
+            position: absolute;
+            right: 33px;
+            top: 20px;
+            border: 2px solid black;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 8px;
+
+        }
+
+        .navbar li a {
+            font-family: Georgia;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .navbar li a:hover {
+
+            color: rgb(236, 75, 16);
+            background-color: rgb(255, 255, 255);
+            border-radius: 2px;
+
+
+        }
+
+        .des {
+            /* border:2px solid black; */
+            display: inline-block;
+        }
+
+        .des h1 {
+            font-size: 45px;
+            color: rgb(177, 72, 34);
+        }
+
+        .des a {
+            /* border: 2px solid black; */
+            display: inline-block;
+            color: black;
+            text-decoration: none;
+            background-color: rgb(236, 75, 16);
+            padding: 10px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 2%;
+
+
+        }
+
+        .des a:hover {
+            color: rgb(236, 75, 16);
+            background-color: white;
+        }
+
+        .form {
+            border: 2px solid black;
+            width: 250px;
+            height: 380px;
+            /* background:linear-gradient(to top,black 50%,black 50%); */
+            
+            position: absolute;
+            top: 45px;
+            left: 870px;
+            border-radius: 10px;
+            padding: 25px;
+        }
+
+        .form input {
+            width: 240px;
+            height: 35px;
+            background:transparent ;
+            color: white;
+            font-size: large;
+            margin-top: 25px;
+            border-radius: 10px;
+            /* background-color: darkgray; */
+
+        }
+        .form input:hover{
+            background-color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+
+        <div class="left">
+            <div class="des">
+                <h1>Where Fitness Becomes Your Lifestyle</h1>
+                <h4>
+                    <P>It is because you burn calories when you exercise.
+                        Further, it helps in developing your muscles.<br>Thus, the rate of your body will increases
+                        which helps to burn calories.
+                        Moreover,<BR> it also helps in improving the oxygen level and blood flow of the body.</P>
+                </h4>
+                <a href="#">Join us</a>
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+
+        </div>
+        <!-- <div class="right"> -->
+        <div class="form">
+            <input type="name" placeholder="Enter Your Name">
+            <input type="age" placeholder="Enter Your Age">
+            <input type="address" placeholder="Enter Your Address ">
+
+
+
+        </div>
+
+        <!-- </div> -->
+    </header>
+
+</body>
+
+</html>
